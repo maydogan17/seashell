@@ -110,27 +110,27 @@ How to run:
 
 1. To run the project, the user must compile seashell.c file first. To compile it, the user
 first needs to open the terminal in the seashell.c files directory. After that the user
-needs to type the following two command to the terminal to run the program:
-2. $ gcc -o seashell seashell.c
-3. $ ./seashell
+needs to type the following two command to the terminal to run the program:  
+2. $ gcc -o seashell seashell.c  
+3. $ ./seashell  
 4. After entering these two commands, seashell will start executing and waits for user
 input. The user can either enter Linux commands or seashell commands. Seashell
-commands are as follows:
-4.1. shortdir set <name>
-4.2. shortdir jump <name>
-4.3. shortdir del <name>
-4.4. shortdir clear
-4.5. shortdir list
-4.6. shortdir load
-4.7. shortdir save
-4.8. highlight <word> <r | g | b > <filename>
-4.9. goodMorning <time> <.mp3 file path>
-4.10. kdiff -a <filename.txt> <filename.txt>
-4.11. kdiff -b <filename> <filename>
-4.12. kdif <filename.txt> <filename.txt>
-4.13. painter <ACSII art name (shrek, jordan, paris, earth)> <color (r g b)>
-4.14. exit (to terminate seashell)
+commands are as follows:  
+4.1. shortdir set <name>  
+4.2. shortdir jump <name>  
+4.3. shortdir del <name>  
+4.4. shortdir clear  
+4.5. shortdir list  
+4.6. shortdir load  
+4.7. shortdir save  
+4.8. highlight <word> <r | g | b > <filename>  
+4.9. goodMorning <time> <.mp3 file path>  
+4.10. kdiff -a <filename.txt> <filename.txt>  
+4.11. kdiff -b <filename> <filename>  
+4.12. kdif <filename.txt> <filename.txt>  
+4.13. painter <ACSII art name (shrek, jordan, paris, earth)> <color (r g b)>  
+4.14. exit (to terminate seashell)  
 
-Important Warning!
+Important Warning!  
 To execute the highlight and kdiff operations files that will be used in the operation need to
 be in the same file as seashell.c. Otherwise operation will fail. User be aware.
