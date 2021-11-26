@@ -1,5 +1,7 @@
-TALHA ENES GULER 64507 tguler17@ku.edu.tr
-MURAT HAN AYDOGAN 64756 maydogan17@ku.edu.tr
+#seashell
+
+TALHA ENES GULER 64507 tguler17@ku.edu.tr  
+MURAT HAN AYDOGAN 64756 maydogan17@ku.edu.tr  
 
 COMP304 - Project 1 Report
 
