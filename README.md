@@ -68,8 +68,7 @@ the PATH is the address of the music file that is wanted to play. Both of these 
 provided from the user.
 The main difficulty is fitting the given arguments to this form. In order to do that we have
 used string tokenizer with “.” separator to take a minute and hour separately. Then we created
-an array with the length of the total text. Then we append every string in order (min hour * *
-* ----- PATH). For string operation we always copied the given string to another string whose
+an array with the length of the total text. Then we append every string in order (min hour *** ----- PATH). For string operation we always copied the given string to another string whose
 pointer is created with malloc and freed them after the process..
 
 Part 5:
