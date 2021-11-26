@@ -1,0 +1,1 @@
+50 15 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /usr/bin/rhythmbox-client --play-uri /home/maydogan/Music/snowman.mp3
