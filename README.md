@@ -59,10 +59,10 @@ Part4:
 
 In this part, the crontab executes the line that is in the crontab.txt file to set the time for alarm
 and to play the wanted music on the alarm. The form of the txt file is :
-* * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /usr/bin/rhythmbox-client --play-uri
-PATH
-So the middle part “XDG_RUNTIME_DIR=/run/user/$(id -u) /usr/bin/rhythmbox-client
---play-uri” of the line is the same for all function calls. The initial distinction is first five *
+" * * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /usr/bin/rhythmbox-client --play-uri
+PATH " 
+So the middle part “ XDG_RUNTIME_DIR=/run/user/$(id -u) /usr/bin/rhythmbox-client
+--play-uri ” of the line is the same for all function calls. The initial distinction is first five *
 which is for wanted time. The first * is set the minute and the second one is for an hour. And
 the PATH is the address of the music file that is wanted to play. Both of these will be
 provided from the user.
